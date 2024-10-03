@@ -166,7 +166,7 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
-// FIX - 
+// FIX - colorTwo should also be set to 'purple'
   colorOne = 'purple';
 }
 */
