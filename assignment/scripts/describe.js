@@ -205,6 +205,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - instead of '<=' it should be '>=' , and the 'no entry' and 'enter' logs should be swapped. We want to check if the age is >= the minAge, and deny entry if not true 
 if(minAge <= age) {
   console.log('no entry');
 } else {
