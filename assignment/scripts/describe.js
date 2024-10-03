@@ -33,15 +33,15 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
-// 
-//
-//
+// We make a variable called name and set it to Dane as a string
+// We create a conditional where if the name variable is equal to Mary, 
+// it will log out "Hi, Mary!"
+// If the name variable does't equal Mary, it will log "How do you do?"
 //
 //
 //
 // OUTCOME:
-//
+// Dane does not equal Mary, so "How do you do?" will be logged.
 
 // CODE:
 /*
@@ -59,12 +59,12 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
-//
+// We make a variable called secret
+// We make a variable called code and set it to the number 123
+// We create a conditional where if the code variable is exactly 123, the secret variable will then equal "super"
+// We create another conditoinal where if the code variable is greater than 250, the secret variable will equal "duper"
 // OUTCOME:
-//
+// We log out the secret variable, which will show as "super"
 
 // CODE:
 /*
@@ -89,12 +89,17 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// 
-// 
-// 
-//
+// We create a variable called isStudent, and give it a boolean of true
+// We create a variable called age and set it to the number 34
+// We create a variable called zip and set it to the number 55407
+// We create a compound conditonal where if the isStudent variable is true AND if the zip variable is greater than 80000,
+// the code will log "You're a student on the west coast!"
+// We follow the first compound conditional with another where if the isStudent variable is false OR the age variable is less than 30,
+// the code will log "What are your hobbies?"
+// We follow that compound conditoinal with a regular conditional where if the isStudent variable is true, the code will log "Welcome to Prime!"
+// We follow that conditional with a final one where if none of the above was true, the code will log "How about the weather?"
 // OUTCOME:
-//
+// The code will log "Welcome to Prime!"
 
 // CODE:
 /*
@@ -155,11 +160,13 @@ if (number >= 2) {
 
 // CODE:
 /*
+// FIX - colorOne should be 'blue' , and colorTwo should be 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+// FIX - 
   colorOne = 'purple';
 }
 */
